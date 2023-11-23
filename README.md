@@ -19,9 +19,9 @@ The goal of this project is to assess and model the relationship between Point o
 The logistic regression model demonstrated a satisfactory performance in predicting perceived bike availability at stations. The chosen POI attributes played a significant role in the classification process. Factors unique to New York City's urban landscape and bike usage patterns contributed to the model's ability to discern availability perceptions effectively.
 
 ## Challenges 
-Api coding setup was difficult.
-Had hard time figuring out how to join the separate csv files by defining the foursquare and yelp as a separate csv file.
-
+- The process of setting up API calls presented a notable challenge during the project. Understanding the documentation, obtaining necessary API keys, and configuring the requests required careful attention. 
+- Integrating data from Foursquare and Yelp, which were initially stored as separate CSV files, posed a significant challenge. 
+- Defining Foursquare and Yelp as Separate CSV Files
 
 ## Future Goals
 Explore additional stations such as busses, ferries to overview transportation data in New York.
