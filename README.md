@@ -4,16 +4,16 @@
 The goal of this project is to assess and model the relationship between Point of Interest (POI) attributes and the perceived bike availability at stations. We aim to classify stations into two categories: "Enough bikes" and "Not enough bikes" based on survey responses. The model will be utilized to predict the number of bikes needed at a station or for planning new stations.
 
 ## Process
-Step 1: Data Collection
-Gathered data on bike stations, POI attributes, and conducted a survey on perceived bike availability.
-Step 2: Data Preparation
-Merged survey data with existing data, handling missing values and ensuring compatibility for modeling.
-Selected relevant POI attributes as features.
-Step 3: Model Training
-Utilized logistic regression to model the relationship between POI attributes and perceived bike availability.
-Split data into training and testing sets for model evaluation.
-Step 4: Model Evaluation
-Assessed the model's performance using accuracy, precision, recall, and F1-score on the testing set.
+- Step 1: Data Collection
+    - Gathered data on bike stations, POI attributes, and conducted a survey on perceived bike availability.
+- Step 2: Data Preparation
+    - Merged survey data with existing data, handling missing values and ensuring         compatibility for modeling. 
+    - Selected relevant POI attributes as features.
+- Step 3: Model Training
+    - Utilized logistic regression to model the relationship between POI attributes and perceived bike availability.
+    - Split data into training and testing sets for model evaluation.
+- Step 4: Model Evaluation
+    - Assessed the model's performance using accuracy, precision, recall, and F1-score on the testing set.
 
 ## Results
 The logistic regression model demonstrated a satisfactory performance in predicting perceived bike availability at stations. The chosen POI attributes played a significant role in the classification process. Factors unique to New York City's urban landscape and bike usage patterns contributed to the model's ability to discern availability perceptions effectively.
